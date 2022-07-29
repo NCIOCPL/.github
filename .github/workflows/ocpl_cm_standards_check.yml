@@ -1,4 +1,4 @@
-name: Pull Request Validation (Shared)
+name: OCPL Configuration Management Standards Check (Shared)
 
 on:
   workflow_call:
@@ -9,10 +9,23 @@ jobs:
   commitlint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: wagoid/commitlint-github-action@v5
+      # need to check out the repo to get the config file
+      # could alternatively download the single file via a script action
+      - name: Checkout commitlint config
+        uses: actions/checkout@v3
+        with:
+          repository: NCIOCPL/.github
+          # This URL will need to be updated when we want to bump to a new version
+          ref: workflows-v1
+          path: commitlint
+      - name: Commitlint
+        uses: wagoid/commitlint-github-action@v5
+        with:
+          configFile: ./commitlint/.github/workflows/commitlint.config.js
 
 ## Holding off on PR checking until we can fully verify them
 
