@@ -5,6 +5,7 @@ module.exports = {
         /^\((#\d+(?:(?:, ){1}#\d+)*)+\)\s(.+)$/
       ),
       headerCorrespondence: ["references", "subject"],
+      referenceActions: null,
     }
   },
   plugins: [
@@ -40,6 +41,7 @@ module.exports = {
     "header-match-team-pattern": [2, "always"],
     "header-beware-commas": [1, "always"],
     "header-min-length": [2, "always", 20],
-    "header-max-length": [2, "always", 72]
+    "header-max-length": [2, "always", 72],
+    "body-leading-blank": [2, "always"],
   }
 };
