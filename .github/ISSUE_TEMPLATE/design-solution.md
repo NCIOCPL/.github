@@ -40,6 +40,8 @@ Design: [3 Solution Phase](https://lion.box.com/s/w5nalm9zjdt361bwke6fxys1duy8p9
 
 ### List of sub-tasks:
 *Add links to related tickets below*
+- [ ] Determine if this change will impact existing piece(s) of documentation (e.g., comps, instruction files, etc.). If so, create a new ticket for the associated updates to be completed after Drupal development (or final stage) is completed.
+- [ ] Sub-Task
 - [ ] Sub-Task
 
 ## Files
