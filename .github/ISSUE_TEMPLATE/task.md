@@ -10,6 +10,7 @@ labels: task
 **Parent Issue:** #9999
 
 ### Sub-Tasks
+- [ ] Determine if this change will impact existing piece(s) of documentation (e.g., comps, instruction files, etc.). If so, create a new ticket for the associated updates to be completed after Drupal development (or final stage) is completed.
 - [ ] Create Component
 - [ ] Implement Unit Tests for Component
 
