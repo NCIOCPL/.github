@@ -19,6 +19,7 @@ Design: [1 Discovery Phase](https://lion.box.com/s/r4vh9g37fps4iafbw41cinahthug8
 
 ### Timeline
 *Identify start and end times for discovery work*
+*NOTE: Determine with federal team if wish to explore Spanish language user testing.*
 
 ### Definition of Done/Complete
 *All findings and synthesis will be documented in a shared Mural board for consistency, communication, and reference*
