@@ -18,5 +18,5 @@ labels: research
 *Identify start and end times for solution work.*
 
 ## Add remaining info below.
-
+NOTE: Determine with federal team if wish to explore Spanish language user testing.
 
