@@ -6,7 +6,8 @@ labels: "change request"
 ---
 
 ### Issue description
-*Description of the issue*
+*Description of the issue.*
+*NOTE: Determine if this change will impact existing piece(s) of documentation (e.g., comps, instruction files, etc.). If so, create a new ticket for the associated updates to be completed after Drupal development (or final stage) is completed.*
 
 > **ESTIMATE** TBD
 
