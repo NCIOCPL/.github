@@ -8,17 +8,23 @@ labels: research
 # Title of Research Plan
 *Description of what is to be accomplished and hoped outcomes*
 
-### ESTIMATE SP: *Story Points TBD*
-
 ### Links to related tickets
 *Add link to related tickets below.*
 - Ticket Tile: #...
 
-### Sub Tasks
-- [ ] Create prototype (formerly part of the "Design Prototype" issue template)
+> Feature/Main User Story: [Enter user story ticket association here] 
+
+### What do you want to learn from this research?
+List the questions you would like to answer
+
+### User / Audience
+Who will be using this design? What personas / audiences are you considering?
 
 ### Timeline
-*Identify start and end times for solution work.*
+When would you need findings / insights?
+
+### Sub Tasks
+- [ ] Create prototype (formerly part of the "Design Prototype" issue template)
 
 ## Add remaining info below.
 NOTE: Determine with federal team if wish to explore Spanish language user testing.
