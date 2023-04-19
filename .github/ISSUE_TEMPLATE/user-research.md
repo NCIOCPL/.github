@@ -1,6 +1,6 @@
 ---
 name: User Research
-about: This template provides a basic structure for user research
+about: This template provides a basic structure for user research.
 title: User Research
 labels: Research
 ---
