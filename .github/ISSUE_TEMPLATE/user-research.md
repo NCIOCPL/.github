@@ -1,5 +1,9 @@
-**About: This template provides a basic structure for user research.**
-
+---
+name: User Research
+about: This template provides a basic structure for user research
+title: User Research
+labels: Research
+---
 ### Approach ###
 **Phase 1: Prep and Execution**
 1. Create Testing Prototype
