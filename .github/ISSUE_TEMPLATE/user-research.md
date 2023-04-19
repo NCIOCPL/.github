@@ -6,7 +6,7 @@ labels: Research
 ---
 ### Approach ###
 **Phase 1: Prep and Execution**
-1. Create Testing Prototype
+1. Determine Testing Vehicle
 2. Create Plan
 3. Recruit for Study
 
@@ -16,10 +16,13 @@ labels: Research
 
 ### Sub-Tasks ###
 
-**1. Create Testing Prototype**
-- [ ] Create prototype to be used during user testing
-- [ ] Review internally
-- [ ] Approve prototype
+**1. Determine Testing Vehicle**
+- [ ] Determine testing vehicle (e.g., live site, prototype)
+- [ ] Secure testing vehicle
+- [ ] If using a prototype: 
+    - [ ] Create prototype
+    - [ ] Review internally
+    - [ ] Approve prototype
 
 **2. Create Plan**
 
