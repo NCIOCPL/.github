@@ -1,7 +1,7 @@
 ---
-name: User Research: Insert Plan Name
+name: User Research
 about: This template provides a basic structure for user research.
-title: User Research
+title: User Research: Insert Plan Name
 labels: Research
 ---
 ### Approach ###
