@@ -1,0 +1,5 @@
+(#3514, #3567) Fix holiday date check for proactive chat
+
+Closes #3514
+Closes #3567
+Touches #8821

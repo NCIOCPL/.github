@@ -20,7 +20,7 @@ jobs:
         with:
           repository: NCIOCPL/.github
           # This URL will need to be updated when we want to bump to a new version
-          ref: workflow/v1
+          ref: workflow/v2
           path: commitlint
       - name: Commitlint
         uses: wagoid/commitlint-github-action@v5
