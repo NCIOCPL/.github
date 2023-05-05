@@ -1,0 +1,35 @@
+name: OCPL Configuration Management Standards Check (Shared)
+
+on:
+  pull_request:
+
+#cancel previous runs for this ref
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+  
+jobs:
+
+  #commitlint commitlint
+  commitlint_remote:
+    uses: nciocpl/.github/.github/workflows/ocpl_cm_standards_check.yml@workflow/v2
+
+  test:
+    name: Test commitlint rules
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout branch
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install commitlint
+        run: npm install -g commitlint
+
+      - name: Run tests
+        run: |
+          ./test.sh

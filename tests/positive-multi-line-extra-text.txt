@@ -1,0 +1,6 @@
+(#331) Fix holiday date check for proactive chat
+
+This was really hard to fix. I hope they appreciate all the hard work I put into it. 
+Commitlint will let this commit through but a human should make me remove this.
+
+Closes #331

@@ -1,0 +1,3 @@
+(#3514) Fix holiday date check for proactive chat
+
+Resolves #3514
