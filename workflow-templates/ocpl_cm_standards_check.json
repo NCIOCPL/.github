@@ -1,0 +1,4 @@
+{
+    "name": "OCPL CM Standards Check",
+    "description": "Validate pull requests for configuration management purposes. Enforces git commit message format and GitHub pull request body contents."
+}
