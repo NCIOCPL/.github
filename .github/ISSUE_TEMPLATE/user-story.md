@@ -21,6 +21,7 @@ Scenario: [title]
 ```
 
 ### Resources:
+* Feature: JIRA Ticket #
 * Mockups: *Here goes a URL to or the name of the mockup(s)*
 * Web Page: *Here goes a URL to an existing web page*
 
