@@ -63,9 +63,9 @@ Design: [3 Solution Phase](https://lion.box.com/s/w5nalm9zjdt361bwke6fxys1duy8p9
 1. Specification 
 
 
-### Specs / InVision:
-*Design specs indicated in the InVision links below. Please view in the inspect mode along with the comments panel*
-1. InVision link
+### Specs / Figma:
+*Design specs indicated in the Figma links below. Please view in the Dev mode along with the comments panel*
+1. Figma Link
 
 
 #### Technical Constraints
