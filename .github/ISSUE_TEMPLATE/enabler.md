@@ -18,7 +18,7 @@ labels: enabler
 
 ### Resources:
 * Feature: JIRA Ticket #
-* Mockups: *Here goes a URL to or the name of the mockup(s) in inVision*
+* Mockups: *Here goes a URL to or the name of the mockup(s)*
 * References: *URL to web site with examples*
 * Web Page: *Here goes a URL to an existing web page*
 
