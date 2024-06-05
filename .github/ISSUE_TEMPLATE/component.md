@@ -36,11 +36,8 @@ labels: component
 ### Behaviors
 *Summary of state changes and behaviors. AC's are more detailed.*
 
-### InVision: 
-  * DSM link: *insert link here, or enter N/A if not needed*
-  * Desktop mockup: *insert link here, or enter N/A if not needed*
-  * Tablet mockup: *insert link here, or N/A if not needed*
-  * Mobile mockup: *insert link here, or N/A if not needed*
+### Figma: 
+  * Figma link: *insert link here, or enter N/A if not needed*
 
 ### Acceptance Criteria for Behaviors 
 *If a component changes between breakpoints, or things show/hide, that gets captured here* 
