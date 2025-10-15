@@ -7,12 +7,16 @@ on:
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
-  
+
 jobs:
 
   #commitlint commitlint
   commitlint_remote:
-    uses: nciocpl/.github/.github/workflows/ocpl_cm_standards_check.yml@workflow/v2
+    # The github context isn't recognized in the ref for the called workflow,
+    # so we'll have  to leave that one hard-coded for now.
+    uses: nciocpl/.github/.github/workflows/ocpl_cm_standards_check.yml@workflow/v4
+    with:
+      config_ref: '${{ github.head_ref }}'
 
   test:
     name: Test commitlint rules
@@ -20,12 +24,12 @@ jobs:
     steps:
 
       - name: Checkout branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: 'lts/jod'
 
       - name: Install commitlint
         run: npm install -g commitlint
