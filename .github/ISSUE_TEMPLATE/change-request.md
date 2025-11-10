@@ -2,7 +2,7 @@
 name: Change Request
 about: A change request to existing functionality 
 title: [Short Name]
-labels: "change request"
+type: "Change Request"
 ---
 
 ### Issue description
