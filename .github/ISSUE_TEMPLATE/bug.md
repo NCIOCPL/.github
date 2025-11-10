@@ -2,7 +2,7 @@
 name: Bug
 about: A bug in the software.
 title: [Short Name]
-labels: bug
+type: Bug
 ---
 
 ### Issue description
