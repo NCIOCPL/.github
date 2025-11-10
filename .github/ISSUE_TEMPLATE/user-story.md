@@ -3,6 +3,7 @@ name: User Story
 about: This template provides a basic structure for user story issues.
 title: "Story: [Short Name]"
 labels: story
+type: "Story"
 ---
 
 ## As a [role], I want [feature], so that [benefit]
