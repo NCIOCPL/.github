@@ -2,7 +2,7 @@
 name: Enabler
 about: An item not relating to a specific story, but required for future architecture needs, compliance or infrastructure.
 title: "Enabler: [Short Name]"
-labels: enabler
+type: "Enabler"
 ---
 
 # Title of Enabler
