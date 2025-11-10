@@ -2,7 +2,7 @@
 name: Spike
 about: A task to investigate some issue so that we may define an approach, break down a too-big story, get details for estimation.
 title: "Spike: [Short Name]"
-labels: spike
+type: "Spike"
 ---
 
 ## In order to <achieve some goal> <a system or persona> needs to <some action>.
