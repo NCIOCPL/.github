@@ -2,7 +2,7 @@
 name: Component
 about: This template defines a template for atomic component issues for the Design System.
 title: "[Short Name]"
-labels: component
+type: "Story"
 ---
 
 ### Build xxx component based on design specs/requirements documented in this ticket
