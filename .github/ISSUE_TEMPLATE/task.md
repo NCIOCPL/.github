@@ -2,7 +2,7 @@
 name: Task
 about: An individual task related to a user story or enabler.
 title: [Short Name]
-labels: task
+type: "Task"
 ---
 
 *Description of what is to be accomplished.*
