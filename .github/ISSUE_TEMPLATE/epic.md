@@ -21,18 +21,11 @@ type: "Epic"
 
 *What does success look like for this epic?*
 
-```gherkin
-Scenario: [high-level scenario]
-  Given [context]
-  When  [event]
-  Then  [outcome]
-```
+## Tasks and Approach
 
 ### Resources:
-* Feature: JIRA Ticket #
 * Mockups: *Here goes a URL to or the name of the mockup(s)*
 * Documentation: *URL to related documentation*
-* Web Page: *Here goes a URL to an existing web page*
 
 ### Related Stories
 - [ ] Story: Short Description - Issue #9999
@@ -45,9 +38,6 @@ Scenario: [high-level scenario]
 - [ ] Task: Short Description - Issue #9999
 
 ### Notes
-
 *Some complementary notes if necessary:*
-
-* > Here goes a quote from an email
 * Here goes whatever useful information can exist…
 * More notes, or technical nuances/direction
