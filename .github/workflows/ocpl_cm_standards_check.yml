@@ -2,43 +2,24 @@ name: OCPL Configuration Management Standards Check (Shared)
 
 on:
   workflow_call:
-  
+
 jobs:
   # use commitlint to verify git commit messages
-  # settings are in commitlint.config.js        
+  # settings are in commitlint.config.js
   commitlint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      # need to check out the repo to get the config file
-      # could alternatively download the single file via a script action
-      - name: Checkout commitlint config
-        uses: actions/checkout@v3
-        with:
-          repository: NCIOCPL/.github
-          # This URL will need to be updated when we want to bump to a new version
-          ref: workflow/v2
-          path: commitlint
-      - name: Commitlint
-        uses: wagoid/commitlint-github-action@v5
-        with:
-          configFile: ./commitlint/.github/workflows/commitlint.config.js
+      # 1) Update the run's Summary tab
+      - name: Update Job Summary
+        run: |
+          echo "This branch has been retired; use @workflow/v4 instead." >> "$GITHUB_STEP_SUMMARY"
 
-## Holding off on PR checking until we can fully verify them
+      # 2) Output the same message in the workflow log
+      - name: Print Message
+        run: |
+          echo "This branch has been retired; use @workflow/v4 instead."
 
-#  # custom script to verify pull request body
-#  check_pr_text:
-#      runs-on: ubuntu-latest
-#      steps:
-#        - uses: actions/github-script@v6
-#          with:
-#            script: |
-#              const prBody = context.payload.pull_request.body
-#              //console.log(prBody)
-#              const issueRegex = /(?:Close|Closes|Closed|Fix|Fixes|Fixed|Resolve|Resolves|Resolved) \#\d+/;
-#              if (prBody.match(issueRegex) === null) {
-#                core.setFailed('Please include "Closes #issue" in your pull request body.')
-#              }
+      # 3) Exit with an error
+      - name: Fail the run
+        run: |
+          exit 1

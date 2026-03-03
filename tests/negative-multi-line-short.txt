@@ -1,3 +1,0 @@
-(#3514) Fixes it
-
-Closes #3514
