@@ -1,4 +1,0 @@
-(#3514) Fix holiday date check for proactive chat
-
-Change findObservedHoliday to use a copy of the passed object
-rather than modify the original.
